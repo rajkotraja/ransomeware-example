@@ -38,6 +38,46 @@ https://www.youtube.com/watch?v=LtiRISepIfs
 ```
 var validExtensions = new[]{".txt", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".odt", ".jpg", ".png", ".csv", ".sql", ".mdb", ".sln", ".php", ".asp", ".aspx", ".html", ".xml", ".psd"};
 ```
+## Hidden Tear Offline Edition or: How I Learned to Stop Worrying and Love the Criminal Mind
+
+What if there is a computer with full of important files and what if it has no internet or network connection. We can access it physicaly. But what if we were being watched, how can we execute hidden tear and get the encryption key?
+
+**Demonstration Video**
+
+https://www.youtube.com/watch?v=ayjv_aAwO0k
+
+**Prerequisites**
+
+Firstly you should have a usb stick which includes:
+
+* exe file of hidden tear offline with a pdf icon.
+* a normal pdf file like hotel reservation, ticket, lecture notes (that depends on your social engineering scenario)
+* a txt file
+
+**Workflow**
+
+After you plugged usb stick to the computer, double click to .exe file. Don't worry, the normal pdf file will be open.
+
+Hidden tear offline creates an encryption key and saves it into the txt file which is inside your usb stick. After than it copies exe file to the computer and executes. This process will be done in seconds. After than, you can unplug your usb stick.
+
+Hidden tear offline will wait for some time which specified before, lets say 10 minutes. After 10 minutes, it will encrypt all the target files in computer. This part is same with the original hidden tear.
+
+**Usage**
+
+* Hidden tear offline will save the encryption key inside this txt file.
+
+`string usbPassword = "adobe.txt";`
+
+* It copies itself to this path after the first execution.
+
+`string exePath = userDir + userName + "\\table.exe";`
+
+* Name of the normal pdf file.
+
+`System.Diagnostics.Process.Start("ticket.pdf");`
+
+* `Timer1`'s interval represents the encryption start time. If you set it to 600000 miliseconds, encryption action will start after 10 minutes the first execution. If you need more time to leave the scene, you can increase the interval.
+
 **Legal Warning** 
 
 While this may be helpful for some, there are significant risks. hidden tear may be used only for Educational Purposes. Do not use it as a ransomware! You could go to jail on obstruction of justice charges just for running hidden tear, even though you are innocent.
