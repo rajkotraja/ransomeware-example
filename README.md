@@ -40,7 +40,7 @@ var validExtensions = new[]{".txt", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".
 ```
 ## Hidden Tear Offline Edition or: How I Learned to Stop Worrying and Love the Criminal Mind
 
-What if there is a computer with full of important files and what if it has no internet or network connection. We can access it physicaly. But what if we were being watched, how can we execute hidden tear and get the encryption key?
+What if there is a computer with full of important files and what if it has no internet or network connection. We can access it physically. But what if we were being watched, how can we execute hidden tear and get the encryption key?
 
 **Demonstration Video**
 
