@@ -78,10 +78,10 @@ Hidden tear offline will wait for some time which specified before, lets say 10 
 
 * `Timer1`'s interval represents the encryption start time. If you set it to 600000 miliseconds, encryption action will start after 10 minutes the first execution. If you need more time to leave the scene, you can increase the interval.
 
-**Legal Warning** 
+## Legal Warning
 
 While this may be helpful for some, there are significant risks. hidden tear may be used only for Educational Purposes. Do not use it as a ransomware! You could go to jail on obstruction of justice charges just for running hidden tear, even though you are innocent.
 
-**Thanks**
+## Thanks
 
 Special thanks to Ikikardes who helped me to publish this code.
